@@ -2,6 +2,7 @@ kind: Service
 apiVersion: v1
 metadata: 
   name: notes-app-Service
+  namespace: nginx
 spec: 
   selector:
     app: notes-app
