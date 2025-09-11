@@ -4,6 +4,7 @@ metadata:
   name: notes-app-deployment
   labels:
     app: notes-app
+    namespace: notes-app
 spec:
   replicas: 2
   selector:
