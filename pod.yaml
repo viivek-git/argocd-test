@@ -3,9 +3,9 @@ kind: Pod
 metadata: 
   name: my-pod
   namespace: notes-app
-spec
+spec:
   containers:
-    - name: nginx
-      image: nginx:latest
-      ports:
-        - containerPort: 80
+  - name: nginx
+    image: nginx:latest
+    ports:
+      - containerPort: 80
