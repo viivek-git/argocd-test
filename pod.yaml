@@ -4,6 +4,9 @@ metadata:
   name: my-pod
   namespace: notes-app
 spec:
+  selector:
+    matchLabels:
+      app: notes-app
   containers:
   - name: nginx
     image: nginx:latest
